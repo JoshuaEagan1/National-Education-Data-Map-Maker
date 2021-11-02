@@ -1,0 +1,15 @@
+tags$head(
+tags$style(HTML(
+          ".navbar-default {
+           background-color: #66609F !important;}
+                 
+           .navbar-default:hover {
+           background-color: #66609F !important;
+           }
+           
+           .navbar-default .navbar-nav > li > .dropdown-menu {
+           background-color: #66609F;
+           color: #FFFFFF;}
+           
+           .navbar-default .navbar-brand {
+                         color: #FFFFFF;}"))),

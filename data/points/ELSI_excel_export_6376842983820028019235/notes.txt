@@ -1,0 +1,6 @@
+The contents of this file were downloaded from the NCES table generator at https://nces.ed.gov/ccd/elsi/tableGenerator.aspx
+on September 28, 2021 at 11:43 AM.
+
+I selected the following feilds: School Name, State Name [Public School] Latest available, School ID - NCES Assigned [Public School], County Number [Public School] 2019-20, Latitude [Public School] 2019-20, Longitude [Public School] 2019-20, State School ID [Public School] 2019-20, and State Agency ID [Public School] 2019-20.
+
+I then opened it, deleted the text before the variable names and after the last row of data, and saved it in the .xlsx format in the parent directory as `school points data.xlsx`.

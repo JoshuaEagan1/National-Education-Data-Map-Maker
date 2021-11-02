@@ -1,0 +1,200 @@
+/*Creating a navbar*/
+
+.navbar-default {
+ 
+  background-color: #4d4d4d;
+ 
+  border-color: #4d4d4d;
+ 
+}
+
+.navbar {
+  min-height: 140px;
+}
+ 
+.navbar-default .navbar-brand {
+  color: #FFFFFF;
+ 
+}
+ 
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+ 
+  color: #FFFFFF;
+ 
+}
+ 
+.navbar-default .navbar-text {
+ 
+  color: #FFFFFF;
+ 
+}
+ 
+.navbar-default .navbar-nav > li > a {
+ 
+  color: #FFFFFF;
+ 
+}
+ 
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+ 
+  color: #B5C093;
+ 
+}
+ 
+/* this section controls the color of the background of the dropdown menu*/
+.navbar-default .navbar-nav > li > .dropdown-menu {
+ 
+  background-color: #4d4d4d;
+ 
+}
+ 
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+ 
+  color: #E2DEDA ;
+ 
+}
+ 
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+ 
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+ 
+  color: #FFFFFF;
+ 
+  background-color: #B5C093;
+ 
+}
+ 
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+ 
+  background-color: #B5C093;
+ 
+}
+ 
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+ 
+  color: #FFFFFF;
+ 
+  background-color: #B5C093;
+ 
+}
+ 
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+ 
+  color: #FFFFFF;
+ 
+  background-color: #B5C093;
+ 
+}
+ 
+.navbar-default .navbar-toggle {
+  margin-top: 23px;
+  padding: 9px 10px !important;
+  border-color: #4d4d4d;
+ 
+}
+ 
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+ 
+  background-color: #E2DEDA;
+ 
+}
+ 
+.navbar-default .navbar-toggle .icon-bar {
+ 
+  background-color: #4d4d4d;
+ 
+}
+ 
+.navbar-default .navbar-collapse,
+ 
+.navbar-default .navbar-form {
+ 
+  border-color: #4d4d4d;
+ 
+}
+ 
+.navbar-default .navbar-link {
+ 
+  color: #B5C093;
+ 
+}
+ 
+.navbar-default .navbar-link:hover {
+ 
+  color: #B5C093;
+ 
+}
+
+/*this section was added by me to change the background color of the active menu item*/
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
+	background-color: #B5C093;
+}
+ 
+@media (max-width: 767px) {
+ 
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+ 
+    color: #FFFFFF;
+ 
+  }
+ 
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #FFFFFF;
+ 
+  }
+ 
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+ 
+    color: #FFFFFF;
+ 
+    background-color: #B5C093;
+ 
+  }
+ 
+}
+
+/*the code below stylizes the whole document*/
+body {
+  font-family: Futura;
+  font-size: 1.75rem;
+  font-weight: 300;
+  background color:#E2DEDA;
+}
+
+/*changing the color of the progress bars for the data uploads*/
+.progress-bar {background-color: #66609F;}
+
+/*changing the color of shiny validation errors*/
+.shiny-output-error-validation {
+     color: #66609F;
+     font-weight: bold;
+}
+
+/*changing the color of links*/
+a {color: #66609F}
+
+/*changing default CSS for buttons*/
+.btn-default {
+    color: #FFFFFF;
+    background-color: #4d4d4d;
+    border-color: #000000;
+}
+
+.btn-default:hover {
+    color: #FFFFFF;
+    background-color: #66609F;
+    border-color: #000000;
+}
+
+/*attempting to change the location of shiny helpers to the bottom right*/
+.shinyhelper-container {
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+/*changing the color of links*/
+/* mouse over link */
+a:hover {
+  color: #B5C093;
+}
